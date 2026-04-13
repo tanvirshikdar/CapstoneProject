@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Monal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">The Monal</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="reservation-container">
+        <div>
+            <h1> Reservation </h1>
+            <form action="#" method="POST" class="reservation-form">
+                <div class="form-group">
+                    <label for="fullName">Full Name</label>
+                    <input type="text" id="fullName" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" placeholder="Enter your email address" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" placeholder="Enter your phone number" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Date</label>
+                    <input type="date" id="date" required>
+                </div>
+                <div class="form-group half-wdith">
+                    <label for="time">Select Time Slot</label>
+                    <input type="time" id="time" required>
+                </div>
+                <div class="form-row">
+                    <div class="form--group half-wdith">
+                        <label for="guests">Number of Guests</label>
+                        <input type="number" id="guests" placeholder="Enter number of guests" required>
+                    </div>
+                </div>
+                <button type="submmit" class="submmit-btn">Confirm Reservation</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3> The Monal </h3>
+                <p> Experience the ultimate dining with a breathtaking view. Authentic taste, premium ambience, and
+                    unforgettable memories! </p>
+                <h3> Contact Us </h3>
+                <p> Phone: +92 51 2898044 </p>
+                <p> Location: Plot # 253-A, Street # 06, Sector I-9/2, Islamabad </p>
+                <p> Email: info@themonal.com </p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
